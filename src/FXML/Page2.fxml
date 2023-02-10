@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="647.0" prefWidth="879.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controler.Page2">
+   <children>
+      <JFXButton layoutX="291.0" layoutY="545.0" onAction="#BatleStartOnAction" prefHeight="61.0" prefWidth="298.0" style="-fx-background-color: #2ecc71;" text="Battle Start" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="297.0" layoutY="50.0" text="Rady Your Wepons" textAlignment="CENTER" textFill="#ab3030">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Pane layoutX="81.0" layoutY="142.0" prefHeight="320.0" prefWidth="287.0" style="-fx-background-color: #bdc3c7;">
+         <children>
+            <Label layoutX="94.0" layoutY="14.0" text="Player A" textAlignment="CENTER" textFill="#4834d4">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="PA1Id" alignment="CENTER_RIGHT" layoutX="62.0" layoutY="83.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#T56_A_OnAction" prefHeight="26.0" prefWidth="145.0" text="T-56      " textFill="#bf1b1b">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="PA2Id" alignment="CENTER_RIGHT" layoutX="62.0" layoutY="124.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#Tank_A_OnAction" prefHeight="26.0" prefWidth="145.0" text="Tank   " textFill="#bf1b1b">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="PA3Id" alignment="CENTER_RIGHT" layoutX="62.0" layoutY="171.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#MaltiBaral_A_OnAction" prefHeight="26.0" prefWidth="145.0" text="Malti Baral" textFill="#bf1b1b">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="PA4Id" alignment="CENTER_RIGHT" layoutX="62.0" layoutY="213.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#Pistol_A_OnAction" prefHeight="26.0" prefWidth="145.0" text="Pistol" textFill="#bf1b1b">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="PA5Id" alignment="CENTER_RIGHT" layoutX="62.0" layoutY="258.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#Bomb_A_OnAction" prefHeight="26.0" prefWidth="145.0" text="Bomb" textFill="#bf1b1b">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </Pane>
+      <Pane layoutX="478.0" layoutY="142.0" prefHeight="320.0" prefWidth="287.0" style="-fx-background-color: #bdc3c7;">
+         <children>
+            <Label layoutX="94.0" layoutY="14.0" text="Player B" textAlignment="CENTER" textFill="#4834d4">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="PB1Id" alignment="CENTER_RIGHT" layoutX="62.0" layoutY="83.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#T56_b_OnAction" prefHeight="26.0" prefWidth="145.0" text="T-56      " textFill="#bf1b1b">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="PB2Id" alignment="CENTER_RIGHT" layoutX="62.0" layoutY="124.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#Tank_B_OnAction" prefHeight="26.0" prefWidth="145.0" text="Tank   " textFill="#bf1b1b">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="PB3Id" alignment="CENTER_RIGHT" layoutX="62.0" layoutY="171.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#Maltibaral_B_OnAction" prefHeight="26.0" prefWidth="145.0" text="Malti Baral" textFill="#bf1b1b">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="PB4Id" alignment="CENTER_RIGHT" layoutX="62.0" layoutY="213.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#Pistol_B_OnAction" prefHeight="26.0" prefWidth="145.0" text="Pistol" textFill="#bf1b1b">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="PB5Id" alignment="CENTER_RIGHT" layoutX="62.0" layoutY="258.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#Bomb_B_OnActio" prefHeight="26.0" prefWidth="145.0" text="Bomb" textFill="#bf1b1b">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

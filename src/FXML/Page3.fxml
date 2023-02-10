@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="647.0" prefWidth="879.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controler.Page3">
+   <children>
+      <JFXButton layoutX="343.0" layoutY="404.0" onAction="#PlayAgainOnAction" prefHeight="65.0" prefWidth="193.0" style="-fx-background-color: #f0932b;" text="Play Again" textFill="#f8f8f8">
+         <font>
+            <Font name="System Italic" size="30.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="115.0" layoutY="230.0" prefHeight="62.0" prefWidth="474.0" text="Player       Win ! Score  :" textFill="#28a41f">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label fx:id="ScoreId" layoutX="629.0" layoutY="230.0" text="00" textFill="#28a41f">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label fx:id="PlayerId" layoutX="260.0" layoutY="230.0" text="A" textFill="#28a41f">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
